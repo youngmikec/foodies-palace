@@ -1,12 +1,27 @@
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+} from 'react-router-dom';
 import './App.css';
+
+import Home from './pages/Home.js';
+import About from './pages/About.js';
+import Contact from './pages/Contact.js';
+import Products from './pages/Products.js';
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <h1>Welcome to Foodies-Palace</h1>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path='/' element={ <Home /> } />
+        <Route exact path='/about' element={ <About /> } />
+        <Route exact path='/contact' element={ <Contact /> } />
+        <Route exact path='/products' element={ <Products /> } />
+      </Routes>
+    </Router>
   );
 }
 
