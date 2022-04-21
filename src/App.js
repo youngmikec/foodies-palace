@@ -10,10 +10,12 @@ import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 import Products from './pages/Products.js';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route exact path='/about' element={<About />} />
