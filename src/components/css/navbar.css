@@ -1,0 +1,37 @@
+.navbar-con {
+    /* background-color: rgb(182, 175, 175); */
+    padding: 20px 24px;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-con>.navbar a {
+    color: snow;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar-logo {
+    position: absolute;
+    left: 0;
+}
+
+@media (min-width: 768px) {
+    .navbar-con>.navbar a {
+        color: black;
+    }
+}
