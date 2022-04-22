@@ -1,0 +1,48 @@
+.slick-button {
+    padding: 8px 12px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 21px;
+    border-radius: 10px;
+    width: fit-content;
+    transition: all .5s ease;
+}
+
+.slick-button.light {
+    background-color: snow;
+    color: red;
+    border: 2px solid red;
+}
+
+.slick-button.dark {
+    background-color: red;
+    color: snow;
+    border: 2px solid snow;
+}
+
+.slick-button.dark:hover {
+    background-color: snow;
+    color: red;
+    border: 2px solid red;
+}
+
+.slick-button.light:hover {
+    background-color: red;
+    color: snow;
+    border: 2px solid snow;
+}
+
+.center-md,
+.right-md {
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .center-md {
+        margin: 0;
+    }
+
+    .right-md {
+        margin: 0 0 0 auto;
+    }
+}

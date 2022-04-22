@@ -1,0 +1,15 @@
+.navbar-link {
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color .5s ease;
+}
+
+.navbar-link:hover {
+    background-color: rgba(204, 204, 207, 0.3);
+    color: rgb(133, 133, 231);
+}
