@@ -5,14 +5,8 @@ import { FaStar, FaArrowCircleRight } from 'react-icons/fa'
 const ProductItem = ({ image, name, price, stars }) => {
     const generateStars = () => {
         let myStars = []
-
         for (let i = 0; i < 5; i++) {
-            if (i < stars) {
-                myStars.push(<FaStar className='icon-dark' key={i} />)
-            }
-            else {
-                myStars.push(<FaStar className='icon-light' key={i} />)
-            }
+            myStars.push(<FaStar className={i < stars ? 'icon-dark' : 'icon-light'} key={i} />)
         }
         return <p>{myStars}</p>
     }
