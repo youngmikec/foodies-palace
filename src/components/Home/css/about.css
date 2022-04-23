@@ -2,7 +2,7 @@
     padding: 20px 0 40px 0;
 }
 
-.home-about>.container {
+.home-about>.my-container {
     display: flex;
     flex-direction: column;
 }

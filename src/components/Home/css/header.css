@@ -2,7 +2,7 @@
     height: 100vh;
 }
 
-.home-header>.container {
+.home-header>.my-container {
     display: flex;
     height: 100%;
     align-items: center;
