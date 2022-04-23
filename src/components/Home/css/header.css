@@ -1,0 +1,90 @@
+.home-header {
+    height: 100vh;
+}
+
+.home-header>.container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.header-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-image: url("../../../../public/img/food4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-text::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.header-text-inner {
+    padding-left: 25px;
+    color: snow;
+    z-index: 3;
+    text-align: center;
+}
+
+.header-text h1 {
+    font-family: cursive;
+}
+
+.header-text p {
+    font-size: 20px;
+}
+
+.header-text p:nth-child(1) {
+    font-style: italic;
+}
+
+.center-md {
+    margin: 0 auto;
+}
+
+.header-image {
+    display: none;
+    height: 100%;
+    background-image: url("../../../../public/img/food4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+
+    .header-image,
+    .header-text {
+        width: 50%;
+    }
+
+    .header-image {
+        display: block;
+    }
+
+    .header-text {
+        background-image: none;
+    }
+
+    .header-text-inner {
+        color: rgb(63, 62, 62);
+        text-align: left;
+    }
+
+    .header-text::after {
+        display: none;
+    }
+
+    .home-header {
+        padding-right: 20px;
+    }
+}
