@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/productItem.css'
-import { FaStar, FaArrowCircleRight } from 'react-icons/fa'
+import { FaStar, FaArrowCircleRight } from 'react-icons/fa';
 
 const ProductItem = ({ image, name, price, stars }) => {
     const generateStars = () => {
@@ -25,7 +25,7 @@ const ProductItem = ({ image, name, price, stars }) => {
                 <div className="product-detail">
                     <div className="product-detail-text">
                         <h3>{name}</h3>
-                        <h2>{price}</h2>
+                        <h2><span>$</span>{price}</h2>
                         {generateStars()}
                     </div>
 
