@@ -11,11 +11,10 @@ const Products = () => {
       </div>
 
       <div className="container">
-        <ProductItem name="Vegetable Salad" image='../img/food1.jpg' price="$78.99" stars={3} />
-        <ProductItem name="Fruit Salad" image='../img/food2.jpg' price="$120.55" stars={5} />
-        <ProductItem name="Cabbage and Berry" image='../img/food3.jpg' price="$90.99" stars={4} />
-        <ProductItem name="Sandwich" image='../img/food4.jpg' price="$190.80" stars={5} />
-        <ProductItem name="Fruit Salad" image='../img/food2.jpg' price="$120.55" stars={3} />
+        <ProductItem name="Vegetable Salad" image='../img/food1.jpg' price="78.99" stars={3} />
+        <ProductItem name="Fruit Salad" image='../img/food2.jpg' price="120.55" stars={5} />
+        <ProductItem name="Cabbage and Berry" image='../img/food3.jpg' price="90.99" stars={4} />
+        <ProductItem name="Sandwich" image='../img/food4.jpg' price="190.80" stars={5} />
       </div>
     </div>
   )

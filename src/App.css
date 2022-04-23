@@ -69,7 +69,7 @@
 
 .container {
   margin: 0 auto;
-  width: 70%;
+  max-width: 70% !important;
 }
 
 .container-fluid {
@@ -92,6 +92,7 @@
 
 .flex-container {
   display: flex;
+  max-width: 80%;
 }
 .flex-row {
   flex-direction: row;

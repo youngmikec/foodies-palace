@@ -1,11 +1,12 @@
 .navbar-con {
     /* background-color: rgb(182, 175, 175); */
     padding: 20px 24px;
-    position: absolute;
+    position: fixed;
     z-index: 100;
     top: 0;
     left: 0;
     right: 0;
+    margin-bottom: 10px;
 }
 
 .navbar {

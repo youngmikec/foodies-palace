@@ -11,6 +11,7 @@ import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 import Products from './pages/Products.js';
 import Navbar from './components/Navbar';
+import Footer from './components/Home/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route exact path='/contact' element={<Contact />} />
         <Route exact path='/products' element={<Products />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
