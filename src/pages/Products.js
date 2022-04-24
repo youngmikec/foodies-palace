@@ -47,11 +47,11 @@ const Products = () => {
     return (
         <div className='container' style={{marginTop: '5rem'}}>
             <h1>Featured Food Recipes</h1>
-            <div className='flex-container flex-row'>
+            <div className='flex-container'>
                 {
                     products.length > 0 ? 
                     products.map((product, idx) => {
-                        return <div className='flex-3'>
+                        return <div>
                             <ProductItem 
                             image={product.image}
                             name={product.food_name}

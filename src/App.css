@@ -91,8 +91,10 @@
 }
 
 .flex-container {
-  display: flex;
-  max-width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: .65rem;
+  max-width: 100%;
 }
 .flex-row {
   flex-direction: row;
