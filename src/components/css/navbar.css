@@ -12,8 +12,9 @@
 .navbar {
     position: relative;
     display: flex;
-    align-items: center;
     justify-content: center;
+    border-radius: 15px;
+    transition: all .5s ease;
 }
 
 .navbar-con>.navbar a {
@@ -21,9 +22,13 @@
 }
 
 .navbar-items {
+    height: 0;
+    overflow: hidden;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
+    transition: all .5s ease;
 }
 
 .navbar-logo {
@@ -31,8 +36,52 @@
     left: 0;
 }
 
+.navbar-toggle {
+    display: block;
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+    transition: color .5s ease;
+}
+.scrolled-nav {
+    background-color: rgb(59, 59, 59);
+}
+.mobile-nav {
+    background-color: rgb(59, 59, 59);
+}
+
+.navbar-toggle:hover {
+    color: rgb(250, 146, 146);
+}
+
 @media (min-width: 768px) {
     .navbar-con>.navbar a {
         color: black;
+    }
+}
+
+@media (min-width: 600px) {
+    .navbar-items {
+        height: fit-content !important;
+        overflow: initial;
+        flex-direction: row;
+    }
+
+    .navbar {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .scrolled-nav {
+        background: rgb(168, 165, 165);
+    }
+    .mobile-nav {
+        background-color: initial;
     }
 }
