@@ -27,6 +27,8 @@
 
 .product-detail-text {
     flex-grow: 1;
+    min-width: 200px;
+    padding: 0 0 0 5px;
 }
 
 .product-detail-button {
