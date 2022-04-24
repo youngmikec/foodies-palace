@@ -88,3 +88,10 @@
         padding-right: 20px;
     }
 }
+
+@media (min-width: 768px) {
+    .home-header>.my-container {
+        margin: 0 auto;
+        width: 80% !important;
+    }
+}

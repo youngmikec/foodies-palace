@@ -12,10 +12,6 @@
     height: 360px;
 }
 
-/* .about-text {
-    width: 45%;
-} */
-
 .about-text-inner {
     text-align: center;
     padding: 20px;
@@ -41,15 +37,18 @@
     }
 }
 
-@media (min-width: 600px){
-    .home-about>.container {
+@media (min-width: 600px) {
+    .home-about>.my-container {
         flex-direction: row;
-    }    
+        margin: 0 auto;
+        width: 80% !important;
+    }
+
     .about-image {
         width: 55%;
         height: auto;
     }
-    
+
     .about-text {
         width: 45%;
     }

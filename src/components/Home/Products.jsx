@@ -28,6 +28,18 @@ const Products = () => {
       image: "../img/food3.jpg",
       price: 78.98
     },
+    {
+      food_name: "Sandwitch",
+      rating: 4,
+      image: "../img/food3.jpg",
+      price: 78.98
+    },
+    {
+      food_name: "KFC cripsy Chicken",
+      rating: 2,
+      image: "../img/foodimage1.jpg",
+      price: 69.00
+    },
   ]
 
   return (
