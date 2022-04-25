@@ -54,3 +54,11 @@
         width: 45%;
     }
 }
+
+
+.p {
+    margin: 500px;
+    padding: 20px;
+    text-align: center;
+    font-size: 100px;
+}
