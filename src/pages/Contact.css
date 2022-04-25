@@ -1,0 +1,23 @@
+.card{
+    background-color: rgb(219, 221, 222);
+    text-align: center;
+    border-radius: 16px;
+    width: 60ex;
+    height: 40ex;
+    margin: auto;
+    
+
+}
+.header1{
+    text-align: left;
+}
+.contact{
+    text-align: center;
+    text-decoration-line: none;
+    
+}
+
+.form-group{
+    margin: 1em;
+    padding: 0px;
+}

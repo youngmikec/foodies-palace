@@ -2,7 +2,6 @@ import React from 'react';
 import '../App.css';
 // import Product from '../components/product.js';
 import ProductItem from '../components/ProductItem';
-import '../assets/img/fried-chicken.jpg'
 
 const Products = () => {
     const products = [
