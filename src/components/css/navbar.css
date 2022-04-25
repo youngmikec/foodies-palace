@@ -79,7 +79,7 @@
     }
 
     .scrolled-nav {
-        background: rgb(168, 165, 165);
+        background: rgb(168, 165, 165) !important;
     }
     .mobile-nav {
         background-color: initial;
