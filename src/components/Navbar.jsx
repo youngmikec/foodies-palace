@@ -13,7 +13,7 @@ const Navbar = () => {
     }
     const handleScroll = () => {
         const offset = window.scrollY;
-        if (offset > 80) {
+        if (offset > 60) {
             setScrolled(true);
         }
         else {
@@ -26,7 +26,7 @@ const Navbar = () => {
     })
 
     return (
-        <div className='navbar-con'>
+        <div className={`navbar-con ${scrolled ? 'scrolled-nav':''}`}>
             <div className={`navbar mobile-nav ${scrolled ? 'scrolled-nav':''}`}>
                 <div className="navbar-logo">
                     <NavLogo logo="../img/logo.png" alt="logo" />

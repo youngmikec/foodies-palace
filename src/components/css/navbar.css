@@ -12,6 +12,7 @@
 .navbar {
     position: relative;
     display: flex;
+    align-items: center;
     justify-content: center;
     border-radius: 15px;
     transition: all .5s ease;
@@ -27,8 +28,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-direction: column;
-    transition: all .5s ease;
 }
 
 .navbar-logo {
