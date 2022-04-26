@@ -8,10 +8,29 @@ const About = () => {
                 <div className="about-con">
                     <i className='ques'>Who are we?</i>
                     <h2>Foodies Palace</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo suscipit labore doloribus nobis harum reprehenderit blanditiis omnis itaque ullam consectetur.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eos sint molestiae harum debitis sed repellendus, eius non qui totam quibusdam, natus incidunt vitae voluptas optio et voluptate quaerat dolores.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsum soluta maxime. Repellendus, corporis odit.</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, impedit! Culpa eligendi veniam a tenetur quaerat, debitis quas laborum quam quidem? Eveniet, iure cum voluptates distinctio sed, doloremque ad repudiandae quo nulla expedita minima! Numquam, voluptatem cupiditate quia praesentium reprehenderit placeat, ex, saepe temporibus modi rem a corrupti recusandae obcaecati!</p>
+                    <p>
+                        We are your friendly online neighborhood food delivery vendor. Here at Foodies palace we take our customers orders to heart 
+                        because we believe that good food brings about good and quality health.
+                    </p>
+                    <p>
+                        Foodies palace is home for all kinds of food and delicacies ranging from local to international food and recipes.
+                        Our vast food menu with over 50+ different food got you covered.
+                    </p>
+
+                    <br/>
+                    <br/>
+                    <i className='ques'>Our mission</i>
+                    <p>
+                        Our mission at Foodies Palace is to ensure that food is readily available to everybody irrespective of class and status.
+                        No matter what your buget is there is alwasy food for you at Foodies Palace.
+                    </p>
+
+                    <br/>
+                    <br/>
+                    <i className='ques'>Our Vision</i>
+                    <p>
+                        Our Vision at Foodies Palace is to become the best online food vendor of both local and international dishes nationally.
+                    </p>
                 </div>
             </div>
         </div>
