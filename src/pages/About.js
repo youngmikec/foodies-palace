@@ -1,6 +1,6 @@
 import React from 'react';
+import './css/about.css';
 
-import '../App.css';
 const About = () => {
     return (
         <div className="App">
@@ -14,7 +14,7 @@ const About = () => {
             <p classname = 'p2'>
                 Foodies palace was established by world-renowned chef, Chef Mike and we have been in the business of meeting the culinary needs of the
                 of the people of Lagos for the past six years recording a very large number of positive reviews across the soccial media space. We have gained 
-                international recognition, after making Forbes' list of <em>"Top 20 restaurants to Visit in the world"</em> and have also hosted The Vice President of Nigeria.
+                international recognition, after making Forbes' list of <em>Top 20 restaurants to Visit in the world</em> and have also hosted The Vice President of Nigeria.
 
             </p>
 

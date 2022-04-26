@@ -1,5 +1,7 @@
 .footer {
     padding: 20px;
+    background-color: rgb(12, 12, 12);
+    color: snow;
 }
 
 .footer-image {
@@ -10,6 +12,7 @@
 }
 
 .footer>.my-container {
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
 }
@@ -29,15 +32,10 @@
 
 .content-con {
     min-width: 200px;
-    flex: 1 1 auto;
 }
 
 
 @media (min-width: 600px) {
-    .footer>.container {
-        flex-direction: row;
-    }
-
     .footer-content {
         flex-direction: row;
         justify-content: space-evenly;
